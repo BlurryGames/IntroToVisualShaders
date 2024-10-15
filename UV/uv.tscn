@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq4rcfkwjq1u2"]
+
+[ext_resource type="Shader" uid="uid://i68468vxehdv" path="res://UV/uv.tres" id="1_gnb8s"]
+[ext_resource type="Texture2D" uid="uid://bvficm6edytoq" path="res://icon.svg" id="2_hmhep"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_f4evx"]
+shader = ExtResource("1_gnb8s")
+
+[node name="UV" type="Sprite2D"]
+material = SubResource("ShaderMaterial_f4evx")
+texture = ExtResource("2_hmhep")
