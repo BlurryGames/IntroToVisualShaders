@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3 uid="uid://dn4dqu5hfxpn2"]
+
+[ext_resource type="Shader" uid="uid://cj0er40dnthgh" path="res://ChangeValue/change_value.tres" id="1_6xvkk"]
+[ext_resource type="Texture2D" uid="uid://bvficm6edytoq" path="res://icon.svg" id="2_2w8xt"]
+[ext_resource type="Script" path="res://ChangeValue/change_value.gd" id="3_v14k8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s4lpa"]
+shader = ExtResource("1_6xvkk")
+shader_parameter/color = Color(1, 1, 0.152941, 1)
+shader_parameter/alpha = 0.1
+
+[node name="ChangeValue" type="Sprite2D"]
+material = SubResource("ShaderMaterial_s4lpa")
+texture = ExtResource("2_2w8xt")
+script = ExtResource("3_v14k8")
