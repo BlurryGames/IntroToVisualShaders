@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj3605adb22qq"]
+
+[ext_resource type="Shader" uid="uid://bw1k65ow0xjph" path="res://ChangePosition/change_position.tres" id="1_l30kl"]
+[ext_resource type="Texture2D" uid="uid://bvficm6edytoq" path="res://icon.svg" id="2_80t0u"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nrlc2"]
+shader = ExtResource("1_l30kl")
+
+[node name="ChangePosition" type="Sprite2D"]
+material = SubResource("ShaderMaterial_nrlc2")
+texture = ExtResource("2_80t0u")
