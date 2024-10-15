@@ -17,5 +17,6 @@ config/icon="res://icon.svg"
 [file_customization]
 
 folder_colors={
-"res://OneShaderSetup/": "pink"
+"res://OneShaderSetup/": "pink",
+"res://ShaderDataTypes/": "purple"
 }
